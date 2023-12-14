@@ -10,7 +10,8 @@
     "dev:ssr": "ng run liff:serve-ssr",
     "serve:ssr": "node dist/liff/server/main.js",
     "build:ssr": "ng build && ng run liff:server",
-    "prerender": "ng run liff:prerender"
+    "prerender": "ng run liff:prerender",
+    "vercel-build": "npm run build:ssr"
   },
   "private": true,
   "dependencies": {
